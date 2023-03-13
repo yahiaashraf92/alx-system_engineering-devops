@@ -1,2 +1,2 @@
 #!/bin/bash
-find -f | ls -u1 ./ | head -n 10
+find . -type f|sort -n| head -n 10
